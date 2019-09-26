@@ -9,7 +9,7 @@
 
 import UIKit
 
-class Item {
+class Item : Codable{
     var title = ""
     var check = false
 }
